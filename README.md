@@ -8,6 +8,48 @@ An interactive Tableau dashboard designed to analyze restaurant trends, customer
 Purpose:
 Empower restaurant owners, marketers, and analysts with data-driven insights on pricing, cuisines, ratings, and geographic performance.
 
+ Questions
+
+. Build a Data Model using the Sheets in the Excel File
+
+. Build a Calendar Table using the Columns Datekey_Opening ( Which has Dates from Minimum Dates and Maximum Dates)
+
+  Add all the below Columns in the Calendar Table using the Formulas.
+  
+   A.Year
+   
+   B.Monthno
+   
+   C.Monthfullname
+   
+   D.Quarter(Q1,Q2,Q3,Q4)
+   
+   E. YearMonth ( YYYY-MMM)
+   
+   F. Weekdayno
+   
+   G.Weekdayname
+   
+   H.FinancialMOnth ( April = FM1, May= FM2  …. March = FM12)
+   
+. Convert the Average cost for 2 column into USD dollars (currently the Average cost for 2 in local currencies
+
+.Find the Numbers of Resturants based on City and Country.
+
+.Numbers of Resturants opening based on Year , Quarter , Month
+
+. Count of Resturants based on Average Ratings
+
+. Create buckets based on Average Price of reasonable size and find out how many resturants falls in each buckets
+
+.Percentage of Resturants based on "Has_Table_booking"
+
+.Percentage of Resturants based on "Has_Online_delivery"
+
+. Develop Charts based on Cusines, City, Ratings ( Candidate have to think about new KPI to analyse)
+
+. Build a Dashboard for the KPI's Above.  
+
 2. Technology Stack
 Tool	Usage
 Tableau Desktop/Public	Primary dashboard development & visualization
